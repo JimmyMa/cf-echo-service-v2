@@ -1,0 +1,8 @@
+---
+applications:
+- name: jimmyechoservice-broker
+  memory: 256M
+  instances: 1
+  host: jimmyechoservice-broker
+  domain: ng.w3.bluemix.net
+  path: .

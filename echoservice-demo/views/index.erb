@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Echo Service Demo</title>
+</head>
+
+<body style="padding-top: 50px;">
+  <div>
+	<div>
+      Please input: <input type="input" name="input"> <input type="submit" value="submit">
+      <%= @echo_url %>
+      <% unless @result.nil? %>
+         Response from Echo Service: <%= @result %>
+      <% end %>
+    </div>
+  </div>
+	
+</body>	
+</html>

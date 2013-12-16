@@ -1,0 +1,14 @@
+---
+applications:
+- name: jimmy-echodemo
+  memory: 256M
+  instances: 1
+  host: jimmy-echodemo
+  domain: ng.w3.bluemix.net
+  path: .
+  services:
+    postgresql-88dc5:
+      label: postgresql
+      provider: core
+      version: '9.1'
+      plan: '100'

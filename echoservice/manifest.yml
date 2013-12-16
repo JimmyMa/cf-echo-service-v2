@@ -1,0 +1,8 @@
+---
+applications:
+- name: jimmyechoserver
+  memory: 256M
+  instances: 1
+  host: jimmyechoserver
+  domain: ng.w3.bluemix.net
+  path: .
